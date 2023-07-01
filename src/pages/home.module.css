@@ -1,0 +1,19 @@
+@import '../variables.module.css';
+.containerHome {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.containerHome h1 {
+	color: var(--text-color);
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.containerHome img {
+	width: 400px;
+}

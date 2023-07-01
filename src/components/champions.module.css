@@ -1,0 +1,28 @@
+@import '../variables.module.css';
+.containerArticle {
+	height: 380px;
+	width: 200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.articleMain {
+	height: 80%;
+}
+.articleMain img {
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+.articleFooter {
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.articleFooter h3 {
+	margin-top: 10px;
+	text-align: center;
+	color: var(--text-color);
+}

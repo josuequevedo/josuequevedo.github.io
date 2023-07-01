@@ -1,0 +1,137 @@
+@import '../variables.module.css';
+.containerCard {
+	background-color: var(--card-color);
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	margin: auto;
+	margin-top: 130px;
+}
+
+.containerCardUp {
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.containerCardUpImg {
+	display: block;
+	position: relative;
+	margin-top: 30px;
+	width: 5em;
+	margin-left: 50px;
+	border: 1px solid #fff;
+}
+
+.containerCardUpName {
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 16px;
+	letter-spacing: 1px;
+	font-size: 40px;
+	color: #fff;
+}
+
+.containerCardUpLevel {
+	display: block;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 80px;
+	color: #fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerCardUpTwo {
+	display: flex;
+	align-items: center;
+	margin-top: 65px;
+}
+
+.containerCardUpRank {
+	display: block;
+	position: absolute;
+	margin-top: 18px;
+	width: 10rem;
+	margin-left: -85px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.image {
+	width: 100px;
+	display: block;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 20px;
+}
+
+.containerCardDown {
+	display: flex;
+	justify-content: space-between;
+	border-top: 3px solid #fff;
+	width: 80%;
+}
+
+.containerDownWins {
+	color: #fffb20;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.containerDownWins span {
+	color: #fff;
+}
+
+.containerDownLoses {
+	color: #bd3d1d;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.containerDownLoses span {
+	color: #fff;
+}
+
+.containerWinrate {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.containerWinrate h4 {
+	color: white;
+	position: relative;
+	margin-top: 30px;
+}
+.containerWinrate p {
+	display: block;
+	position: absolute;
+	margin-top: 50px;
+	color: white;
+}
+
+/* THIS IS IMG OF CHAMPIONS  */
+
+.containerLength {
+	margin-top: 3em;
+	display: flex;
+	justify-content: center;
+}
+.containerLength img {
+	width: 45em;
+	display: block;
+	margin-right: 100px;
+}
+
+/* LOADER */
